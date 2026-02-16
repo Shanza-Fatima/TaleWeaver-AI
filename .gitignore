@@ -1,0 +1,26 @@
+# --- Python Virtual Environments ---
+# This tells Git to ignore the entire .venv folder and its contents
+backend/.venv/
+.venv/
+venv/
+env/
+ENV/
+
+# --- VS Code ---
+# Ignores your local editor settings and history
+.vscode/
+.history/
+*.code-workspace
+
+# --- Python Build & Caches ---
+# These are temporary files Python creates when running your code
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+
+# --- OS Specific ---
+# Ignore system files from Windows or Mac
+.DS_Store
+Thumbs.db
