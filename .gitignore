@@ -3,7 +3,7 @@
 backend/.venv/
 .venv/
 venv/
-env/
+.env/
 ENV/
 
 # --- VS Code ---
